@@ -192,7 +192,6 @@ def main():
         print("BEARER_TOKEN:", BEARER_TOKEN)
     except Exception as e:
         print(f"❌ 获取Token失败：{e}")
-        input("\n执行失败，按回车键关闭窗口")
         return
 
     # 第二步：构造积分转入请求参数
@@ -256,8 +255,6 @@ def main():
         print(json.dumps(resp.json(), ensure_ascii=False, indent=2))
     except Exception as err:
         print(f"请求异常失败：{str(err)}")
-
-    input("\n执行完毕，按回车键关闭窗口")
 
 
 if __name__ == "__main__":

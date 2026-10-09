@@ -1,0 +1,8 @@
+requests>=2.31.0
+python-dotenv>=1.0.0
+flask>=3.0.0
+uiautomator2>=3.0.0
+adbutils>=2.0.0
+openai>=1.30.0
+cryptography>=42.0.0
+python-dateutil>=2.9.0

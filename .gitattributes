@@ -1,0 +1,4 @@
+# 统一 LF 行尾，避免 Windows/Mac 跨平台来回切换
+* text=auto eol=lf
+*.png binary
+*.xlsx binary
